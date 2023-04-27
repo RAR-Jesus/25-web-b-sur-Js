@@ -5,13 +5,10 @@ console.log('4==4');
 console.log('4===4');
 
 // Salida de datos en la pagina
-
-document.write('Hola Mundo')
+document.write('Hola Mundo');
 
 // Salida con popup
-
-alert('Hola mundo desde js')
+alert('Hola mundo desde js');
 
 // Entrada de datos desde js
-
-prompt('Por favor ingresa tu nombre: ')
+prompt('Por favor ingresa tu nombre: ');
