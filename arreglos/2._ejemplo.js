@@ -1,11 +1,10 @@
 // crear un arreglo con diferentes platillos (max5)
-
-let platillos =[
-    "Memela", //0
-    "Tostada",//1
-    "Garnacha",//2
-    "Tamal",//3
-    "Picadillo"//4
+let platillos = [
+  "Memela", //0
+  "Tostada",//1
+  "Garnacha",//2
+  "Tamal",//3
+  "Picadillo"//4
 ]
 
 // 1.- Mediante un ciclo for, muestra todos los platillos
@@ -14,10 +13,10 @@ let platillos =[
 // }
 
 // 2.- Mediante for e if, muestra solo dos platillos Tostada y tamal
-for( i = 0; i < platillos.length; i++){
-    if(i == 1 || i == 3){
-        console.log(platillos[i]);
-    }
+for (let i = 0; i < platillos.length; i++) {
+  if (i == 1 || i == 3) {
+    console.log(platillos[i]);
+  }
 }
 
 
